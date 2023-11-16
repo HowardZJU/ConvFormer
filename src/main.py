@@ -41,7 +41,8 @@ parser.add_argument("--weight_decay", default=0.0, type=float, help="weight_deca
 parser.add_argument("--n_fft", default=50, type=int)
 parser.add_argument("--local", default=3, type=int)
 parser.add_argument("--pool_size", default=2, type=int)
-
+parser.add_argument("--use_causalmask", default=0, type=int)
+parser.add_argument("--switch_order", default=0, type=int)
 
 # for conv
 parser.add_argument("--conv_name", default=1, type=int)
